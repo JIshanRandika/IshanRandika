@@ -1,0 +1,77 @@
+{
+  "date": "resume",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://jishanrandika.github.io/i/",
+  "engines": {
+    "npm": "6.4.1",
+    "node": "14.17.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "aos": "^2.3.4",
+    "aphrodite": "^2.4.0",
+    "babel-preset-react-app": "^3.1.2",
+    "jquery": "^3.6.0",
+    "keystone": "^4.2.1",
+    "prop-types": "^15.7.2",
+    "radium": "^0.26.1",
+    "react": "^16.14.0",
+    "react-animations": "^1.0.0",
+    "react-bootstrap": "^1.6.1",
+    "react-burger-menu": "^2.6.11",
+    "react-countup": "^4.4.0",
+    "react-digital-clock": "^0.1.2",
+    "react-dom": "^16.14.0",
+    "react-native-image-slider": "^1.1.5",
+    "react-native-image-slider-show": "^1.0.3",
+    "react-native-video": "^4.4.2",
+    "react-photo-gallery": "^8.0.0",
+    "react-player": "^1.11.1",
+    "react-responsive-embed": "^2.1.0",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^4.0.3",
+    "react-scrolllock": "^5.0.1",
+    "react-sidebar": "^3.0.2",
+    "react-simple-sidenav": "^1.0.1",
+    "react-slick": "^0.28.1",
+    "react-swift-slider": "^6.3.0",
+    "react-upvote": "0.0.2",
+    "react-visibility-sensor": "^5.1.1",
+    "reactstrap": "^8.9.0",
+    "redux": "^4.0.1",
+    "slick-carousel": "^1.8.1",
+    "video-react": "^0.14.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "presets": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/env",
+    "@babel/react"
+  ],
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
