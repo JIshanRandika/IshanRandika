@@ -490,7 +490,7 @@ Demo1.defaultProps = {
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G60.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G60.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 250,
             thumbnailHeight: 320,
             caption: "G60"
         },
@@ -504,7 +504,7 @@ Demo1.defaultProps = {
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G62.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G62.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 450,
             thumbnailHeight: 320,
             caption: "G62"
         },
@@ -539,7 +539,7 @@ Demo1.defaultProps = {
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G67.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G67.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 450,
             thumbnailHeight: 320,
             caption: "G67"
         },
@@ -547,13 +547,13 @@ Demo1.defaultProps = {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G68.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G68.jpg?raw=true",
             thumbnailWidth: 350,
-            thumbnailHeight: 320,
+            thumbnailHeight: 350,
             caption: "G68"
         },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G69.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G69.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 380,
             thumbnailHeight: 320,
             caption: "G69"
         },
@@ -561,41 +561,41 @@ Demo1.defaultProps = {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G70.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G70.jpg?raw=true",
             thumbnailWidth: 350,
-            thumbnailHeight: 320,
+            thumbnailHeight: 350,
             caption: "G70"
         },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G71.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G71.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 450,
             thumbnailHeight: 320,
             caption: "G71"
         },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G72.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G72.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 250,
             thumbnailHeight: 320,
             caption: "G72"
         },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G73.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G73.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 450,
             thumbnailHeight: 320,
             caption: "G73"
         },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G74.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G74.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 380,
             thumbnailHeight: 320,
             caption: "G74"
         },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G75.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G75.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 450,
             thumbnailHeight: 320,
             caption: "G75"
         },
@@ -609,42 +609,42 @@ Demo1.defaultProps = {
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G77.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G77.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 450,
             thumbnailHeight: 320,
             caption: "G77"
         },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G78.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G78.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 450,
             thumbnailHeight: 320,
             caption: "G78"
         },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G79.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G79.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 450,
             thumbnailHeight: 320,
             caption: "G79"
         },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G80.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G80.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 450,
             thumbnailHeight: 320,
             caption: "G80"
         },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G81.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G81.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 400,
             thumbnailHeight: 320,
             caption: "G81"
         },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G82.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G82.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 450,
             thumbnailHeight: 320,
             caption: "G82"
         },
@@ -652,34 +652,34 @@ Demo1.defaultProps = {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G83.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G83.jpg?raw=true",
             thumbnailWidth: 350,
-            thumbnailHeight: 320,
+            thumbnailHeight: 350,
             caption: "G83"
         },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G84.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G84.jpg?raw=true",
             thumbnailWidth: 350,
-            thumbnailHeight: 320,
+            thumbnailHeight: 350,
             caption: "G84"
         },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G85.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G85.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 450,
             thumbnailHeight: 320,
             caption: "G85"
         },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G86.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G86.jpg?raw=true",
-            thumbnailWidth: 350,
-            thumbnailHeight: 320,
+            thumbnailWidth: 1024,
+            thumbnailHeight: 768,
             caption: "G86"
         },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G87.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G87.jpg?raw=true",
-            thumbnailWidth: 350,
+            thumbnailWidth: 400,
             thumbnailHeight: 320,
             caption: "G87"
         },
