@@ -2,7 +2,7 @@ let resumeData = {
     //"imagebaseurl":"",
     "name": "Ishan Randika",
     "currentRole": "Undergraduate at Sabaragamuwa University of Sri Lanka",
-    "otherTitles": "B.Sc (Hons) Computing & Information Systems(UG) in Sabaragamuwa University of Sri Lanka | Dip. Computer Science in Edith Cowan University, Australia | Vice Chairperson at IEEE Student Branch SUSL | Treasurer at Society of Computer Society SUSL | Data Science Enthusiast | Associate Software Engineer",
+    "otherTitles": "B.Sc (Hons) Computing & Information Systems(UG) in Sabaragamuwa University of Sri Lanka | Dip. Computer Science in Edith Cowan University, Australia | Vice Chairperson at IEEE Student Branch SUSL | Data Science Enthusiast",
     "linkedinId":"https://www.linkedin.com/in/IshanRandika",
     "skypeid": "Your skypeid",
     "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
@@ -60,7 +60,7 @@ let resumeData = {
 
     "countUpNumber":[
         {
-            "CountEnd":"3",
+            "CountEnd":"6",
             "CountTitle":"Blogs",
         },
         {
