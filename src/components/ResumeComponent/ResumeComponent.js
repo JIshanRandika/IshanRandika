@@ -21,6 +21,7 @@ export default class ResumeComponent extends Component {
                             Download Resume
                         </button>
                     </a>
+
                     {/*<Link to={`https://drive.google.com/file/d/1tBBo4RThufPKw3NliCeV6Y2wZSFkcyZ6/view?usp=sharing`} style={{ width:"100%"}}>*/}
                     {/*    <button  className="shadow" style={{position:"relative", width:"30%"}}>*/}
                     {/*        Download Resume*/}

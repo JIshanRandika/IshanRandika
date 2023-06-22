@@ -607,7 +607,7 @@ let resumeData = {
             "title":"Race Walking Shoe Research",
             // "subtitle":"Good and bad effect for the society",
             "imgurl":"https://github.com/JIshanRandika/images/blob/main/ProjectCards/racewalking.png?raw=true",
-            "router":"#"
+            "router":"https://wwjmrd.com/archive/2023/1/2014/race-walking-detection-through-piezoelectric-sensors-and-graphical-programming"
         },
         {
             "title":"IEEE WIE Sri Lanka Section Editor",
