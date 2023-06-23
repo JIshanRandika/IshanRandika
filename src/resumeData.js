@@ -68,7 +68,7 @@ let resumeData = {
             "CountTitle":"Certifications",
         },
         {
-            "CountEnd":"20",
+            "CountEnd":"23",
             "CountTitle":"Projects",
         },
         {
@@ -126,6 +126,15 @@ let resumeData = {
         "Achievements":"I passed the GCE Ordinary Level Examination with 7 A’s 1 B and 1 S for subjects of Mathematics, Science, Information & Communication Technology, Business & Account Studies, Buddhism, Sinhala Language & Literature, History, English, and English Literature."
       }
     ],
+    "publication":[
+        {
+            "publicationName":"Race-walking Detection through Piezoelectric Sensors and Graphical Programming",
+            "web": "https://wwjmrd.com/archive/2023/1/2014/race-walking-detection-through-piezoelectric-sensors-and-graphical-programming",
+            "description":"Fault detection in race-walking has been a topic of discussion each and every time a major sport event like Olympics is on display. Hence many attempts have been made accurately detect the bent knee and loss of contact during the event. Here we discuss a cost-effective method using graphical programming to accurately detect the loss of contact during the training sessions in university athletes. A piezo-electric sensor system in implemented together with NI-myRIO. We differentiated walking, running and race-walking patterns with the help of histograms of peak time differences between main peaks and sub-peaks.",
+            "YearRange":"2023",
+        },
+    ],
+
     "work":[
       {
         "CompanyName":"Sentura Technologies (PVT) Limited",
@@ -284,6 +293,24 @@ let resumeData = {
     ],
 
     "blogCards":[
+        {
+            "title":"Association, Composition and Aggregation in java",
+            "subtitle":"Three fundamental principles in object-oriented programming",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/association.png?raw=true",
+            "router":"https://medium.com/@jishanrandika/association-composition-and-aggregation-in-java-7518d6326514"
+        },
+        {
+            "title":"Pointers in java",
+            "subtitle":"Using memory manage model instead of pointers in java",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/pointers.png?raw=true",
+            "router":"https://medium.com/@jishanrandika/using-memory-manage-model-instead-of-pointers-in-java-17b886ff9f34"
+        },
+        {
+            "title":"Transportation",
+            "subtitle":"Emerging technologies in the transportation industry",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/emergingTransportaion.png?raw=true",
+            "router":"https://medium.com/@jishanrandika/emerging-technologies-in-transportation-industry-421a178538e1"
+        },
         {
             "title":"Self-Driving",
             "subtitle":"Good and bad effect for the society",
@@ -591,11 +618,24 @@ let resumeData = {
             "router":"https://play.google.com/store/apps/details?id=com.suta_rideshare_frontend"
         },
         {
-            "title":"Agri Area Mobile App",
+            "title":"LOGOS Virtual Journal",
             // "subtitle":"Good and bad effect for the society",
-            "imgurl":"https://github.com/JIshanRandika/images/blob/main/ProjectCards/AgriArea%20app.png?raw=true",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/ProjectCards/logos.png?raw=true",
+            "router":"http://logos.sab.ac.lk/"
+        },
+        {
+            "title":"Lecture Hall Management System",
+            // "subtitle":"Good and bad effect for the society",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/ProjectCards/lecHall.png?raw=true",
             "router":"#"
         },
+        {
+            "title":"Exam Paper Management Standalone App",
+            // "subtitle":"Good and bad effect for the society",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/ProjectCards/examPaper.png?raw=true",
+            "router":"#"
+        },
+
         {
             "title":"Convocation Registration",
             // "subtitle":"Good and bad effect for the society",
@@ -603,6 +643,12 @@ let resumeData = {
             "router":"http://smartgcr.sab.ac.lk/"
         },
 
+        {
+            "title":"Agri Area Mobile App",
+            // "subtitle":"Good and bad effect for the society",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/ProjectCards/AgriArea%20app.png?raw=true",
+            "router":"#"
+        },
         {
             "title":"Race Walking Shoe Research",
             // "subtitle":"Good and bad effect for the society",

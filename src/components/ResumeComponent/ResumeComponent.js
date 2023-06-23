@@ -53,6 +53,36 @@ export default class ResumeComponent extends Component {
                         }
                     </div>
                 </div>
+                <div className="row publication">
+                    <div className="three columns header-col">
+                        <h1><span>Publications</span></h1>
+                    </div>
+
+                    <div className="nine columns main-col">
+                        {
+                            resumeData.publication && resumeData.publication.map((item) => {
+                                return(
+                                    <div className="row item">
+                                        <div className="twelve columns">
+                                            <a target='_blank' href={item.web}>
+                                                <h3>{item.publicationName}<em className="date">({item.YearRange})</em></h3>
+                                            </a>
+                                            <p>
+                                                {item.description}
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                )
+                            })
+                        }
+                    </div>
+                </div>
+
+
+
+
                 <div className="row work">
                     <div className="three columns header-col">
                         <h1><span>Experience</span></h1>
@@ -66,7 +96,7 @@ export default class ResumeComponent extends Component {
                                         <div className="twelve columns">
                                             <h3>{item.specialization}<em className="date">({item.YearRange})</em></h3>
                                             <p className="info">
-                                                <a href={item.web}>{item.CompanyName}</a>
+                                                <a target='_blank' href={item.web}>{item.CompanyName}</a>
                                             </p>
                                             <p>
                                                 {item.Achievements}
