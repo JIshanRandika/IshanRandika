@@ -280,14 +280,20 @@ class Gallery extends Component {
             width: "100%"
         };
         return (
-            <div id={this.props.id}
+            <div  id={this.props.id}
                  className="ReactGridGallery"
-                 ref={(c) => this._gallery = c}>
+                 ref={(c) => this._gallery = c}
+
+            >
                 <iframe style={resizeIframeStyles}
                         ref={(c) => c && c.contentWindow
                             && c.contentWindow.addEventListener('resize', this.onResize) } />
-                {images}
+                <div style={{display:"flex", alignItems:'center', justifyContent:'center', flexWrap:"wrap"}}>
+                    {images}
+                </div>
+
                 <Lightbox
+
                     images={this.props.images}
                     backdropClosesModal={this.props.backdropClosesModal}
                     currentImage={this.state.currentImage}

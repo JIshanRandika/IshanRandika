@@ -47,11 +47,34 @@ export default class CertificationCardComponent extends Component {
                                                 {/*    </Link>*/}
 
                                                 {/*</Col>*/}
-                                                <a style={{color:"white",width:"100%"}} href={item.web} target="_blank">
-                                                <button  className="shadow" style={{position:"relative", width:"100%"}}>
-                                                    View
-                                                </button>
-                                                </a>
+                                                {/*<a style={{color:"white",width:"100%"}} href={item.web} target="_blank">*/}
+                                                {/*<button  className="shadow" style={{position:"relative", width:"100%"}}>*/}
+                                                {/*    View*/}
+                                                {/*</button>*/}
+                                                {/*</a>*/}
+                                                {item.router==="#"?
+                                                    <a style={{color:"white",width:"100%"}} href={item.router} target="_blank">
+                                                        <button  disabled={item.router=="#"} className="shadow" style={{position:"relative", width:"100%",
+                                                            background:item.router=="#" ? "gray": 'white',
+                                                            "&:hover": {
+                                                                background: "blue",
+                                                            },
+                                                        }}>
+                                                            View
+                                                        </button>
+                                                    </a>
+                                                    :
+                                                    <a style={{color:"white",width:"100%"}} href={item.router} target="_blank">
+                                                        <button  disabled={item.router=="#"} className="shadow" style={{position:"relative", width:"100%",
+                                                            color:item.router=="#" ? "gray": 'white',
+                                                            "&:hover": {
+                                                                background: "blue",
+                                                            },
+                                                        }}>
+                                                            View
+                                                        </button>
+                                                    </a>
+                                                }
                                                 {/*<Col md="6" xs="6">*/}
                                                 {/*    <a href={`${item.web}`} target="_blank">*/}
                                                 {/*        <button  className="shadow" style={{position:"relative", width:"100%", padding:"10px"}}>*/}

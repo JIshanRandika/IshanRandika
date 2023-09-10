@@ -16,7 +16,7 @@ export default class ResumeComponent extends Component {
                     <h1 style={{fontSize:"25px",color:"#95A3A3"}}>Resume</h1>
                 </div>
                 <div className="row education">
-                    <a style={{color:"white",width:"100%"}} href="https://drive.google.com/file/d/1BCrBG931v9uTpGO7JjrJnCfnJtpQvQl6/view?usp=sharing" target="_blank">
+                    <a style={{color:"white",width:"100%"}} href="https://drive.google.com/file/d/1Lsf8ECQVpF55YkNHA0Sg2Uem3yrJsSN6/view?usp=sharing" target="_blank">
                         <button  className="shadow" style={{position:"relative", width:"30%"}}>
                             Download Resume
                         </button>

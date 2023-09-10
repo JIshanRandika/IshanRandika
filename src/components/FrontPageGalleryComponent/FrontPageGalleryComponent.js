@@ -36,7 +36,10 @@ class Demo1 extends React.Component {
                 minHeight: "1px",
                 width: "100%",
                 border: "1px solid #ddd",
-                overflow: "auto"}}>
+                overflow: "auto",
+                alignItems:"center",
+                justifyContent:"center"
+            }}>
                 <Gallery
                     images={this.state.images}
                     onSelectImage={this.onSelectImage}
