@@ -1,7 +1,7 @@
 let resumeData = {
     //"imagebaseurl":"",
     "name": "Ishan Randika",
-    "currentRole": "Undergraduate at Sabaragamuwa University of Sri Lanka",
+    "currentRole": "Intern-Software Engineer at WSO2 | Undergraduate at Sabaragamuwa University of Sri Lanka",
     "otherTitles": "B.Sc (Hons) Computing & Information Systems(UG) in Sabaragamuwa University of Sri Lanka | Dip. Computer Science in Edith Cowan University, Australia",
     "linkedinId":"https://www.linkedin.com/in/IshanRandika",
     "skypeid": "Your skypeid",
@@ -136,6 +136,13 @@ let resumeData = {
     ],
 
     "work":[
+        {
+            "CompanyName":"WSO2",
+            "web": "https://wso2.com/",
+            "specialization":"Software Engineer Internship",
+            "YearRange":"2024",
+            "Achievements": "This is a six month internship as an Intern Software Engineer which include full stack development with the technologies of React js, Ballerina, Choreo, Asgardeo. ",
+        },
       {
         "CompanyName":"Sentura Technologies (PVT) Limited",
           "web": "https://senturatechnologies.com/",
@@ -143,6 +150,7 @@ let resumeData = {
         "YearRange":"2020",
         "Achievements": "This is a six month internship as a Trainee Associate Software Engineer which include UI UX designing with prototyping and Web developing with the technologies of React js, React Native, Node js, Redux, Spring boot. ",
       },
+
 
         {
             "CompanyName":"IEEE Student Branch of SUSL",
@@ -808,6 +816,11 @@ let resumeData = {
 
 
     "news":[
+        {
+            "description":"Started the Software Engineer Internship at WSO2.",
+            "date":"1st of January, 2024"
+
+        },
         {
             "description":"Started the Bachelor of Science Honours in Computing and Information Systems Degree at Sabaragamuwa University of Sri Lanka.",
             "date":"12th of February, 2020"

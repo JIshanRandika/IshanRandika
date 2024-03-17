@@ -869,6 +869,34 @@ Demo1.defaultProps = {
             thumbnailHeight: 320,
             caption: "G114"
         },
+        {
+            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G115.jpg?raw=true",
+            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G115.jpg?raw=true",
+            // thumbnailWidth: 350,
+            thumbnailHeight: 320,
+            caption: "G115"
+        },
+        {
+            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G116.jpg?raw=true",
+            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G116.jpg?raw=true",
+            // thumbnailWidth: 350,
+            thumbnailHeight: 320,
+            caption: "G116"
+        },
+        {
+            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G117.jpg?raw=true",
+            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G117.jpg?raw=true",
+            // thumbnailWidth: 350,
+            thumbnailHeight: 320,
+            caption: "G117"
+        },
+        {
+            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G118.jpg?raw=true",
+            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G118.jpg?raw=true",
+            // thumbnailWidth: 350,
+            thumbnailHeight: 320,
+            caption: "G118"
+        },
 
     ])
 };
