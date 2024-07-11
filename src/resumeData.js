@@ -1,7 +1,7 @@
 let resumeData = {
     //"imagebaseurl":"",
     "name": "Ishan Randika",
-    "currentRole": "Intern-Software Engineer at WSO2 | Undergraduate at Sabaragamuwa University of Sri Lanka",
+    "currentRole": "Former Intern-Software Engineer at WSO2 | Undergraduate at Sabaragamuwa University of Sri Lanka",
     "otherTitles": "B.Sc (Hons) Computing & Information Systems(UG) in Sabaragamuwa University of Sri Lanka | Dip. Computer Science in Edith Cowan University, Australia",
     "linkedinId":"https://www.linkedin.com/in/IshanRandika",
     "skypeid": "Your skypeid",
@@ -127,6 +127,12 @@ let resumeData = {
       }
     ],
     "publication":[
+        {
+            "publicationName":"Accessibility of Motion Capture as a Tool for Sports Performance Enhancement for Beginner and Intermediate Cricket Players.",
+            "web": "https://www.mdpi.com/1424-8220/24/11/3386",
+            "description":"Motion Capture (MoCap) has become an integral tool in fields such as sports, medicine, and the entertainment industry. The cost of deploying high-end equipment and the lack of expertise and knowledge limit the usage of MoCap from its full potential, especially at beginner and intermediate levels of sports coaching. The challenges faced while developing affordable MoCap systems for such levels have been discussed in order to initiate an easily accessible system with minimal resources.",
+            "YearRange":"2024",
+        },
         {
             "publicationName":"Race-walking Detection through Piezoelectric Sensors and Graphical Programming",
             "web": "https://wwjmrd.com/archive/2023/1/2014/race-walking-detection-through-piezoelectric-sensors-and-graphical-programming",
@@ -817,13 +823,26 @@ let resumeData = {
 
     "news":[
         {
+            "description":"I successfully ended my Software Engineer Internship at WSO2.",
+            "date":"30th of June, 2024"
+        },
+        {
             "description":"Started the Software Engineer Internship at WSO2.",
             "date":"1st of January, 2024"
+        },
+        {
+            "description":"I successfully ended my  Trainee Associate Software Engineer Internship at Sentura Technologies (PVT) Limited.",
+            "date":"31st of June, 2020"
 
         },
         {
             "description":"Started the Bachelor of Science Honours in Computing and Information Systems Degree at Sabaragamuwa University of Sri Lanka.",
-            "date":"12th of February, 2020"
+            "date":"5th of October, 2020"
+
+        },
+        {
+            "description":"Started the Trainee Associate Software Engineer Internship at Sentura Technologies (PVT) Limited.",
+            "date":"1st of June, 2020"
 
         },
       {
@@ -832,7 +851,7 @@ let resumeData = {
 
       },
       {
-          "description":"I was successfully end my programming course at Institute of Java and Software Engineer",
+          "description":"I was successfully ended my programming course at Institute of Java and Software Engineer",
           "date":"11th of May, 2019"
       },
         {

@@ -87,9 +87,9 @@ export default class Navigation extends Component {
                 <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                 <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
                 <ul id="nav" >
-                    <li className="current"><a href="https://ishanrandika.live/">Home</a></li>
-                    <li><a style={{color:"#636363"}} className="smoothscroll" href="https://ishanrandika.live/#about">About</a></li>
-                    <li><a style={{color:"#636363"}} className="smoothscroll" href="https://ishanrandika.live/#resume">Gallery</a></li>
+                    <li className="current"><a href="https://jayaweerageishanrandika.web.app/">Home</a></li>
+                    <li><a style={{color:"#636363"}} className="smoothscroll" href="https://jayaweerageishanrandika.web.app/#about">About</a></li>
+                    <li><a style={{color:"#636363"}} className="smoothscroll" href="https://jayaweerageishanrandika.web.app/#resume">Gallery</a></li>
                     <li><Link style={{padding:"0px"}} to={`/blogCards`}><a style={{color:"#636363"}}>Blog</a></Link></li>
                     <li><Link style={{padding:"0px"}} to={`/resume`}><a style={{color:"#636363"}}>Resume</a></Link></li>
                     <li><Link style={{padding:"0px"}} to={`/certificationCards`}><a style={{color:"#636363"}}>Cerfications</a></Link></li>
@@ -97,7 +97,7 @@ export default class Navigation extends Component {
                     <li><Link style={{padding:"0px"}} to={`/awardCards`}><a style={{color:"#636363"}}>Honors & Awards</a></Link></li>
                     {/*<li><Link style={{padding:"0px"}} to={`#`}><a style={{color:"#636363"}}>Life</a></Link></li>*/}
                     <li><Link style={{padding:"0px"}} to={`/servicesCards`}><a style={{color:"#636363"}}>Services</a></Link></li>
-                    <li><a className="smoothscroll" href="https://ishanrandika.live/#testimonials" style={{color:"#636363"}}>My Updates</a></li>
+                    <li><a className="smoothscroll" href="https://jayaweerageishanrandika.web.app/#testimonials" style={{color:"#636363"}}>My Updates</a></li>
                     <li><Link style={{padding:"0px"}} to={`/testimonial`}><a style={{color:"#636363"}}>Testimonial</a></Link></li>
                     {/*<li><a className="smoothscroll" href="http://localhost:3000/#resume">Resume</a></li>*/}
                     {/*<li><a className="smoothscroll" href="http://localhost:3000/#portfolio">Works</a></li>*/}
