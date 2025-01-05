@@ -15,7 +15,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(https://github.com/JIshanRandika/images/blob/main/portfolio-background7.jpg?raw=true) no-repeat top center;
+   background: #161415 url(https://github.com/JIshanRandika/images/blob/main/bg11.png?raw=true) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -731,7 +731,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -755,7 +755,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
