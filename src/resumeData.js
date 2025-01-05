@@ -60,7 +60,7 @@ let resumeData = {
 
     "countUpNumber":[
         {
-            "CountEnd":"6",
+            "CountEnd":"13",
             "CountTitle":"Blogs",
         },
         {
@@ -308,38 +308,80 @@ let resumeData = {
 
     "blogCards":[
         {
+            "title":"Pioneering Human Motion Analysis: A Comprehensive Comparison of MediaPipe and OpenPose",
+            "subtitle":"In the realm of human motion capture and pose estimation, MediaPipe and OpenPose stand out as two groundbreaking technologies that have significantly influenced the field...",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/mediapipe.png?raw=true",
+            "router":"https://medium.com/@jishanrandika/pioneering-human-motion-analysis-a-comprehensive-comparison-of-mediapipe-and-openpose-6bc0ca84a2c3"
+        },
+        {
+            "title":"Exploring the Future of Motion Capture: Revolutionizing Movement Across Industries",
+            "subtitle":"Motion capturing, commonly referred to as “mocap,” is a technology that records the movement of objects or individuals in real time. This data is then used in various fields...",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/motion.png?raw=true",
+            "router":"https://medium.com/@jishanrandika/exploring-the-future-of-motion-capture-revolutionizing-movement-across-industries-833c4109b8d6"
+        },
+        {
+            "title":"Python vs Ruby",
+            "subtitle":"The field of machine learning has grown rapidly in recent years, with several programming languages competing to be the go-to choice for developers. Among the popular options, Python and Ruby stand out due to their...",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/ruby.png?raw=true",
+            "router":"https://medium.com/@jishanrandika/python-vs-ruby-b668f6dce45c"
+        },
+        {
+            "title":"Cell-Based Architecture: The Backbone of Scalable Systems",
+            "subtitle":"In the ever-evolving world of technology, system design strategies are continually adapting to handle higher loads, more data, and complex demands for performance and scalability...",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/cellbased.png?raw=true",
+            "router":"https://medium.com/@jishanrandika/cell-based-architecture-the-backbone-of-scalable-systems-2b5ea50cbe1c"
+        },
+        {
+            "title":"Monolithic App Development vs. Decoupled App Development: Navigating the Pros and Cons",
+            "subtitle":"In modern technology, the architecture of a certain application can influence its performance, scalability, speed of development, and level of maintenance...",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/monolithic.png?raw=true",
+            "router":"https://medium.com/@jishanrandika/monolithic-app-development-vs-decoupled-app-development-navigating-the-pros-and-cons-29ca166580d7"
+        },
+        {
+            "title":"Improve developer productivity with Ballerina, Choreo, and Asgardeo",
+            "subtitle":"The combination of Ballerina, Choreo, and Asgardeo offers a powerful and cohesive suite of tools for developing secure, cloud-native applications with robust integration capabilities...",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/ballerina.png?raw=true",
+            "router":"https://medium.com/@jishanrandika/be-a-smart-developer-with-ballerina-choreo-and-asgardeo-fd8db3c3516b"
+        },
+        {
+            "title":"What is WSO2?",
+            "subtitle":"With the digital transformation of the world WSO2 providing Open source software solutions since 2005. Mainly they focus on finding solutions for integration challenges...",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/wso2.png?raw=true",
+            "router":"https://medium.com/@jishanrandika/what-is-wso2-3be750abb136"
+        },
+        {
             "title":"Association, Composition and Aggregation in java",
-            "subtitle":"Three fundamental principles in object-oriented programming",
-            "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/association.png?raw=true",
+            "subtitle":"Three fundamental principles in object-oriented programming, notably in Java, are association, composition, and aggregation...",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/association2.png?raw=true",
             "router":"https://medium.com/@jishanrandika/association-composition-and-aggregation-in-java-7518d6326514"
         },
         {
-            "title":"Pointers in java",
-            "subtitle":"Using memory manage model instead of pointers in java",
-            "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/pointers.png?raw=true",
+            "title":"Using memory manage model instead of pointers in java",
+            "subtitle":"Popular programming language Java is frequently used to create reliable apps. Memory management is one of the foundational ideas of Java...",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/pointers2.png?raw=true",
             "router":"https://medium.com/@jishanrandika/using-memory-manage-model-instead-of-pointers-in-java-17b886ff9f34"
         },
         {
-            "title":"Transportation",
-            "subtitle":"Emerging technologies in the transportation industry",
-            "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/emergingTransportaion.png?raw=true",
+            "title":"Emerging technologies in the transportation industry",
+            "subtitle":"One of the fundamental elements of contemporary civilization is transportation, which makes it possible for individuals to travel and for ...",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/emergingTransportaion2.png?raw=true",
             "router":"https://medium.com/@jishanrandika/emerging-technologies-in-transportation-industry-421a178538e1"
         },
         {
             "title":"Self-Driving",
-            "subtitle":"Good and bad effect for the society",
+            "subtitle":"Nowadays self-driving vehicle is an eminent innovation in the present technical world. Norman Bel Geddes found the first self-driving car in 1939. Now we can see a good market for these self-driving vehicles.",
             "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/selfDrivingBlogCard.jpg?raw=true",
             "router":"https://medium.com/@jishanrandika/self-driving-f06fe4f530b0"
         },
         {
             "title":"Wireless communication",
-            "subtitle":"New trends",
+            "subtitle":"In our regular day to day existences, remote correspondence framework has become a fundamental piece of different...",
             "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/wirelssCommunicationBlogCard.jpg?raw=true",
             "router":"https://medium.com/@jishanrandika/wireless-communication-44aa5c58d7c3"
         },
 
         {
-            "title":"Communications",
+            "title":"Science Communication VS Scientific Communication VS Professional Communication VS Academic Communication",
             "subtitle":"Science, Scientific, Professional, Academic",
             "imgurl":"https://github.com/JIshanRandika/images/blob/main/BlogCards/Communications.png?raw=true",
             "router":"https://medium.com/@jishanrandika/science-communication-vs-scientific-communication-vs-professional-communication-vs-academic-4690ee01bccd"
