@@ -64,16 +64,16 @@ let resumeData = {
             "CountTitle":"Blogs",
         },
         {
-            "CountEnd":"39",
+            "CountEnd":"44",
             "CountTitle":"Certifications",
         },
         {
-            "CountEnd":"23",
+            "CountEnd":"26",
             "CountTitle":"Projects",
         },
         {
-            "CountEnd":"3",
-            "CountTitle":"Awards",
+            "CountEnd":"9",
+            "CountTitle":"Honors & Awards",
         },
     ],
 
@@ -128,10 +128,22 @@ let resumeData = {
     ],
     "publication":[
         {
-            "publicationName":"Accessibility of Motion Capture as a Tool for Sports Performance Enhancement for Beginner and Intermediate Cricket Players.",
+            "publicationName":"Motion Capturing in cricket with bare minimum hardware and optimised software: A comparison of MediaPipe and OpenPose",
+            "web": "https://doi.org/10.1109/SSITCON62437.2024.10796169",
+            "description":"In sports, wearable systems and optical systems are used to estimate human poses and calculate body angles using key points. Wearable systems are not suitable for use in an outdoor environment since they disturb to players. The optical methods such as MediaPipe (Google Inc.) and OpenPose (CMU) are used to capture the humans using key points. Optical approaches can be used with daylight on an outdoor background without a controlled environment. This study compares the MediaPipe and OpenPose with the HMDB51 dataset, UCF Sports Action dataset, and video footage captured by the team from a cricket player.",
+            "YearRange":"2024",
+        },
+        {
+            "publicationName":"Accessibility of Motion Capture as a Tool for Sports Performance Enhancement for Beginner and Intermediate Cricket Players",
             "web": "https://www.mdpi.com/1424-8220/24/11/3386",
             "description":"Motion Capture (MoCap) has become an integral tool in fields such as sports, medicine, and the entertainment industry. The cost of deploying high-end equipment and the lack of expertise and knowledge limit the usage of MoCap from its full potential, especially at beginner and intermediate levels of sports coaching. The challenges faced while developing affordable MoCap systems for such levels have been discussed in order to initiate an easily accessible system with minimal resources.",
             "YearRange":"2024",
+        },
+        {
+            "publicationName":"Social Media Platform for Deaf and Dumb People through Sign Language Recognition Using Media Pipe and Machine Learning",
+            "web": "https://www.comurs.sab.ac.lk/2024/abstractBook.html",
+            "description":"People in the world who are deaf/dump their entertainment is limited because they are embarrassed when expressing their ideas with normal people. Since they typically utilize sign language to connect with regular people, regular people ought to be proficient in sign language as well. Nevertheless, it is quite challenging to locate individuals in the community who are proficient in sign language. Even Though many research studies were carried out to address this issue, there is still a large room for improvement. Many of those approaches cannot afford poor people, and it is hard to use wearable devices with the disturbance to normal communication.",
+            "YearRange":"2023",
         },
         {
             "publicationName":"Race-walking Detection through Piezoelectric Sensors and Graphical Programming",
@@ -200,7 +212,7 @@ let resumeData = {
             "skillname":"PHP"
         },
         {
-            "skillname":"Dart"
+            "skillname":"Choreo"
         },
         {
             "skillname":"reactjs"
@@ -224,7 +236,7 @@ let resumeData = {
             "skillname":"arduino"
         },
         {
-            "skillname":"Flutter"
+            "skillname":"Ballerina"
         },
         {
             "skillname":"Laravel"
@@ -870,6 +882,12 @@ let resumeData = {
 
     "ServicesCards":[
         {
+            "title":"Research and Development",
+            // "subtitle":"Good and bad effect for the society",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/ServicesCards/rd.jpg?raw=true",
+            "router":"/bettingProject"
+        },
+        {
             "title":"Web Application Developing",
             // "subtitle":"Good and bad effect for the society",
             "imgurl":"https://github.com/JIshanRandika/images/blob/main/ServicesCards/web.jpg?raw=true",
@@ -893,26 +911,59 @@ let resumeData = {
 
     "awardsCards":[
         {
-            "title":"Gold badge for Java In HackerRank",
-            "subtitle":"HackerRank is a place where programmers from all over the world come together to solve problems in a wide range of Computer Science domains such as algorithms, machine learning, or artificial intelligence, as well as to practice different programming paradigms like functional programming.",
-            "imgurl":"https://github.com/JIshanRandika/images/blob/main/AwardCards/hackerRankJava.jpg?raw=true",
-            "router":"https://www.hackerrank.com/jishanrandika?hr_r=1"
+            "title":"1st Place 🥇 under the University and Tertiary Education category at the Ruhuna Invention and Innovation Exhibition 2023",
+            // "subtitle":" I have been awarded Bronze Medal for Diploma of Science (Computing/IT) Trimester 03, 2019, for my overall performance in the 2021 Graduation Ceremony of Australian College of Business and Technology under Edith Cowan University of Australia. I completed my diploma with an 82.125% high average mark.",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/AwardCards/winnerRuhuna.png?raw=true",
+            "router":"#"
         },
         {
-            "title":"I am The Bronze Medal Winner",
-            "subtitle":" I have been awarded Bronze Medal for Diploma of Science (Computing/IT) Trimester 03, 2019, for my overall performance in the 2021 Graduation Ceremony of Australian College of Business and Technology under Edith Cowan University of Australia. I completed my diploma with an 82.125% high average mark.",
+            "title":"I have been awarded Bronze Medal for Diploma of Science (Computing/IT) Trimester 03, 2019.",
+            // "subtitle":" I have been awarded Bronze Medal for Diploma of Science (Computing/IT) Trimester 03, 2019, for my overall performance in the 2021 Graduation Ceremony of Australian College of Business and Technology under Edith Cowan University of Australia. I completed my diploma with an 82.125% high average mark.",
             "imgurl":"https://github.com/JIshanRandika/images/blob/main/AwardCards/ACBT.png?raw=true",
             "router":"#"
         },
         {
-            "title":"2021 HackX Winner",
-            "subtitle":"HackX is an Information Technology-oriented & Innovation-based Hackathon organized as a project of Industrial Management Science Students’ Association (IMSSA), in line with the launch of the magazine 'Exposition' . HackX will ensure that the most energetic, talented and vibrant undergraduates compete to strive towards excellence in programming, designing, developing, engineering and also marketing. Also this event empowers the competitors’ presentation skills to bring about their innovative idea or product to the market.",
+            "title":"Winner of hackX 2021, the Inter-University Start-up Challenge organized by the University of Kelaniya.",
+            // "subtitle":"HackX is an Information Technology-oriented & Innovation-based Hackathon organized as a project of Industrial Management Science Students’ Association (IMSSA), in line with the launch of the magazine 'Exposition' . HackX will ensure that the most energetic, talented and vibrant undergraduates compete to strive towards excellence in programming, designing, developing, engineering and also marketing. Also this event empowers the competitors’ presentation skills to bring about their innovative idea or product to the market.",
             "imgurl":"https://github.com/JIshanRandika/images/blob/main/AwardCards/HackX.png?raw=true",
             "router":"https://fb.watch/ajjZucBeOe/"
         },
-
-
-
+        {
+            "title":"Vice Chancellor Appreciation letter for developing the LOGOS virtual journal for Sabaragamuwa University of Sri Lanka",
+            // "subtitle":"",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/AwardCards/vcLogos.png?raw=true",
+            "router":"#"
+        },
+        {
+            "title":"Vice Chancellor Appreciation letter for new developments in the convocation system for the Sabaragamuwa University of Sri Lanka",
+            // "subtitle":"",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/AwardCards/vcConvo24.png?raw=true",
+            "router":"#"
+        },
+        {
+            "title":"Vice Chancellor Appreciation letter for developing convocation system for the Sabaragamuwa University of Sri Lanka",
+            // "subtitle":"",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/AwardCards/vcConvo23.png?raw=true",
+            "router":"#"
+        },
+        {
+            "title":"Vice Chancellor Appreciation letter for developing a paper packet management desktop application for examination division",
+            // "subtitle":"",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/AwardCards/vcExam.png?raw=true",
+            "router":"#"
+        },
+        {
+            "title":"Vice Chancellor Appreciation letter for developing a mahapola and bursary progress dashboard web application",
+            // "subtitle":"",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/AwardCards/vsMahapola.png?raw=true",
+            "router":"#"
+        },
+        {
+            "title":"Gold badge for Java In HackerRank",
+            // "subtitle":"HackerRank is a place where programmers from all over the world come together to solve problems in a wide range of Computer Science domains such as algorithms, machine learning, or artificial intelligence, as well as to practice different programming paradigms like functional programming.",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/AwardCards/hackerRankJava.jpg?raw=true",
+            "router":"https://www.hackerrank.com/jishanrandika?hr_r=1"
+        },
     ],
 
 
