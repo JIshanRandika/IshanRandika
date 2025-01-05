@@ -539,13 +539,13 @@ Demo1.defaultProps = {
         //     thumbnailHeight: 320,
         //     caption: "G66"
         // },
-        {
-            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G67.jpg?raw=true",
-            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G67.jpg?raw=true",
-            // thumbnailWidth: 450,
-            thumbnailHeight: 320,
-            caption: "G67"
-        },
+        // {
+        //     src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G67.jpg?raw=true",
+        //     thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G67.jpg?raw=true",
+        //     // thumbnailWidth: 450,
+        //     thumbnailHeight: 320,
+        //     caption: "G67"
+        // },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G68.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G68.jpg?raw=true",
@@ -686,20 +686,20 @@ Demo1.defaultProps = {
             thumbnailHeight: 320,
             caption: "G87"
         },
-        {
-            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G89.jpg?raw=true",
-            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G89.jpg?raw=true",
-            // thumbnailWidth: 350,
-            thumbnailHeight: 320,
-            caption: "G89"
-        },
-        {
-            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G90.jpg?raw=true",
-            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G90.jpg?raw=true",
-            // thumbnailWidth: 350,
-            thumbnailHeight: 320,
-            caption: "G90"
-        },
+        // {
+        //     src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G89.jpg?raw=true",
+        //     thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G89.jpg?raw=true",
+        //     // thumbnailWidth: 350,
+        //     thumbnailHeight: 320,
+        //     caption: "G89"
+        // },
+        // {
+        //     src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G90.jpg?raw=true",
+        //     thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G90.jpg?raw=true",
+        //     // thumbnailWidth: 350,
+        //     thumbnailHeight: 320,
+        //     caption: "G90"
+        // },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G91.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G91.jpg?raw=true",
@@ -728,34 +728,34 @@ Demo1.defaultProps = {
             thumbnailHeight: 320,
             caption: "G94"
         },
-        {
-            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G95.jpg?raw=true",
-            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G95.jpg?raw=true",
-            // thumbnailWidth: 350,
-            thumbnailHeight: 320,
-            caption: "G95"
-        },
-        {
-            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G96.jpg?raw=true",
-            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G96.jpg?raw=true",
-            // thumbnailWidth: 350,
-            thumbnailHeight: 320,
-            caption: "G96"
-        },
-        {
-            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G97.jpg?raw=true",
-            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G97.jpg?raw=true",
-            // thumbnailWidth: 350,
-            thumbnailHeight: 320,
-            caption: "G97"
-        },
-        {
-            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G98.jpg?raw=true",
-            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G98.jpg?raw=true",
-            // thumbnailWidth: 350,
-            thumbnailHeight: 320,
-            caption: "G98"
-        },
+        // {
+        //     src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G95.jpg?raw=true",
+        //     thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G95.jpg?raw=true",
+        //     // thumbnailWidth: 350,
+        //     thumbnailHeight: 320,
+        //     caption: "G95"
+        // },
+        // {
+        //     src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G96.jpg?raw=true",
+        //     thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G96.jpg?raw=true",
+        //     // thumbnailWidth: 350,
+        //     thumbnailHeight: 320,
+        //     caption: "G96"
+        // },
+        // {
+        //     src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G97.jpg?raw=true",
+        //     thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G97.jpg?raw=true",
+        //     // thumbnailWidth: 350,
+        //     thumbnailHeight: 320,
+        //     caption: "G97"
+        // },
+        // {
+        //     src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G98.jpg?raw=true",
+        //     thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G98.jpg?raw=true",
+        //     // thumbnailWidth: 350,
+        //     thumbnailHeight: 320,
+        //     caption: "G98"
+        // },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G99.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G99.jpg?raw=true",
@@ -833,13 +833,13 @@ Demo1.defaultProps = {
             thumbnailHeight: 320,
             caption: "G109"
         },
-        {
-            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G110.jpg?raw=true",
-            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G110.jpg?raw=true",
-            // thumbnailWidth: 350,
-            thumbnailHeight: 320,
-            caption: "G110"
-        },
+        // {
+        //     src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G110.jpg?raw=true",
+        //     thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G110.jpg?raw=true",
+        //     // thumbnailWidth: 350,
+        //     thumbnailHeight: 320,
+        //     caption: "G110"
+        // },
         {
             src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G111.jpg?raw=true",
             thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G111.jpg?raw=true",
@@ -897,7 +897,62 @@ Demo1.defaultProps = {
             thumbnailHeight: 320,
             caption: "G118"
         },
-
+        {
+            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G119.jpg?raw=true",
+            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G119.jpg?raw=true",
+            // thumbnailWidth: 350,
+            thumbnailHeight: 320,
+            caption: "G119"
+        },
+        {
+            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G120.jpg?raw=true",
+            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G120.jpg?raw=true",
+            // thumbnailWidth: 350,
+            thumbnailHeight: 320,
+            caption: "G120"
+        },
+        {
+            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G121.jpg?raw=true",
+            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G121.jpg?raw=true",
+            // thumbnailWidth: 350,
+            thumbnailHeight: 320,
+            caption: "G121"
+        },
+        {
+            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G122.jpg?raw=true",
+            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G122.jpg?raw=true",
+            // thumbnailWidth: 350,
+            thumbnailHeight: 320,
+            caption: "G122"
+        },
+        {
+            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G123.jpg?raw=true",
+            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G123.jpg?raw=true",
+            // thumbnailWidth: 350,
+            thumbnailHeight: 320,
+            caption: "G123"
+        },
+        {
+            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G124.jpg?raw=true",
+            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G124.jpg?raw=true",
+            // thumbnailWidth: 350,
+            thumbnailHeight: 320,
+            caption: "G124"
+        },
+        {
+            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G125.jpg?raw=true",
+            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G125.jpg?raw=true",
+            // thumbnailWidth: 350,
+            thumbnailHeight: 320,
+            caption: "G125"
+        },
+        {
+            src: "https://github.com/JIshanRandika/images/blob/main/Gallery/G126.jpg?raw=true",
+            thumbnail: "https://github.com/JIshanRandika/images/blob/main/Gallery/G126.jpg?raw=true",
+            // thumbnailWidth: 350,
+            thumbnailHeight: 320,
+            caption: "G126"
+        },
     ])
 };
 
