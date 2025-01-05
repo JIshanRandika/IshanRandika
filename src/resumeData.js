@@ -703,10 +703,28 @@ let resumeData = {
 
     "projectsCards":[
         {
+            "title":"Call Your Driver",
+            // "subtitle":"Good and bad effect for the society",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/ProjectCards/callYourDriver.png?raw=true",
+            "router":"https://callyourdriver.online/"
+        },
+        {
+            "title":"Social Lips",
+            // "subtitle":"Good and bad effect for the society",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/ProjectCards/socialLips.png?raw=true",
+            "router":"#"
+        },
+        {
             "title":"SL Rideshare Start up",
             // "subtitle":"Good and bad effect for the society",
-            "imgurl":"https://github.com/JIshanRandika/images/blob/main/ProjectCards/SLRideshare.png?raw=true",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/ProjectCards/rideshare.png?raw=true",
             "router":"https://play.google.com/store/apps/details?id=com.suta_rideshare_frontend"
+        },
+        {
+            "title":"IEEE Website for Sabaragamuwa University of Sri Lanka",
+            // "subtitle":"Good and bad effect for the society",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/ProjectCards/ieeeWeb.png?raw=true",
+            "router":"https://ieee.sab.ac.lk/"
         },
         {
             "title":"LOGOS Virtual Journal",
