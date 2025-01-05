@@ -1,100 +1,121 @@
-import React, {Component} from 'react';
-import {Link} from 'react-router-dom'
-import {Col, Row} from "reactstrap";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React, { Component } from "react";
+import { Col, Row, Modal, ModalBody } from "reactstrap";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default class CertificationCardComponent extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            isModalOpen: false,
+            selectedImage: null,
+            hoveredIndex: null, // Track which card is hovered
+        };
+    }
+
+    componentDidMount() {
+        AOS.init({ duration: 2000 });
+    }
+
+    toggleModal = (image = null) => {
+        this.setState((prevState) => ({
+            isModalOpen: !prevState.isModalOpen,
+            selectedImage: image,
+        }));
+    };
+
+    handleMouseEnter = (index) => {
+        this.setState({ hoveredIndex: index });
+    };
+
+    handleMouseLeave = () => {
+        this.setState({ hoveredIndex: null });
+    };
+
     render() {
-        AOS.init({
-            duration: 2000,
-        })
-        let resumeData = this.props.resumeData;
+        const { resumeData } = this.props;
+        const { isModalOpen, selectedImage, hoveredIndex } = this.state;
+
         return (
-            <section id="portfolio" style={{background:"#ffffff"}}>
+            <section id="portfolio" style={{ background: "#f9f9f9", padding: "40px 0" }}>
+                <h1
+                    style={{
+                        fontSize: "28px",
+                        color: "#5A5A5A",
+                        textAlign: "center",
+                        marginBottom: "20px",
+                        marginTop: "40px",
+                    }}
+                >
+                    Certifications
+                </h1>
 
-                <h1 style={{fontSize:"25px",color:"#95A3A3"}}>Certifications</h1>
-                <Row style={{width:"100%", marginBottom:"20px"}}>
+                <Row className="justify-content-center" style={{ margin: "0 auto", maxWidth: "1200px" }}>
+                    {resumeData.certificationCards &&
+                    resumeData.certificationCards.map((item, index) => (
+                        <Col
+                            key={index}
+                            data-aos="fade-up"
+                            data-aos-offset="100"
+                            md="3"
+                            xs="12"
+                            style={{
+                                margin: "15px",
+                                background: "#ffffff",
+                                borderRadius: "8px",
+                                boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+                                overflow: "hidden",
+                                cursor: "pointer",
+                                transform: hoveredIndex === index ? "scale(0.95)" : "scale(1)", // Apply zoom-out effect
+                                transition: "transform 0.3s ease", // Smooth transition
+                                border: "2px solid gold", // Add gold border
+                            }}
+                            onMouseEnter={() => this.handleMouseEnter(index)}
+                            onMouseLeave={this.handleMouseLeave}
+                            onClick={() => this.toggleModal(item.imgurl)}
+                        >
+                            <div style={{ textAlign: "center" }}>
+                                <img
+                                    src={item.imgurl}
+                                    alt={item.title}
+                                    style={{
+                                        marginTop: "20px",
+                                        width: "180px",
+                                        height: "180px",
+                                        objectFit: "cover",
+                                        backgroundColor: "#eaeaea",
+                                    }}
+                                />
 
-                    {
-                        resumeData.certificationCards && resumeData.certificationCards.map((item)=>{
-                            return(
-                                <Col data-aos="fade-up"
-                                    // data-aos-anchor-placement="bottom-bottom"
-                                     data-aos-offset="100" md="3" xs="12" style={{width:"100%", background:"#ffffff", marginBottom:"20px"}}>
-                                    {/*<Link to={`${item.router}`}>*/}
-
-                                    <div className="shadow">
-
-                                        <Col>
-                                            <Row>
-                                                <img style={{padding:"25px"}} src={`${item.imgurl}`}/>
-                                            </Row>
-
-                                            <Row>
-
-                                                <div style={{padding:"25px",textAlign:"center"}}>
-                                                    <h5>{item.title}</h5>
-                                                    <p style={{margin:"0px"}}>{item.subtitle}</p>
-                                                </div>
-                                            </Row>
-                                            <Row style={{alignItems:'center', margin:"0px"}}>
-                                                {/*<Col md="6" xs="6">*/}
-                                                {/*    <Link to={`${item.router}`}>*/}
-                                                {/*        <button  className="shadow" style={{position:"relative", width:"100%", padding:"10px"}}>*/}
-                                                {/*            Read*/}
-                                                {/*        </button>*/}
-                                                {/*    </Link>*/}
-
-                                                {/*</Col>*/}
-                                                {/*<a style={{color:"white",width:"100%"}} href={item.web} target="_blank">*/}
-                                                {/*<button  className="shadow" style={{position:"relative", width:"100%"}}>*/}
-                                                {/*    View*/}
-                                                {/*</button>*/}
-                                                {/*</a>*/}
-                                                {item.router==="#"?
-                                                    <a style={{color:"white",width:"100%"}} href={item.router} target="_blank">
-                                                        <button  disabled={item.router=="#"} className="shadow" style={{position:"relative", width:"100%",
-                                                            background:item.router=="#" ? "gray": 'white',
-                                                            "&:hover": {
-                                                                background: "blue",
-                                                            },
-                                                        }}>
-                                                            View
-                                                        </button>
-                                                    </a>
-                                                    :
-                                                    <a style={{color:"white",width:"100%"}} href={item.router} target="_blank">
-                                                        <button  disabled={item.router=="#"} className="shadow" style={{position:"relative", width:"100%",
-                                                            color:item.router=="#" ? "gray": 'white',
-                                                            "&:hover": {
-                                                                background: "blue",
-                                                            },
-                                                        }}>
-                                                            View
-                                                        </button>
-                                                    </a>
-                                                }
-                                                {/*<Col md="6" xs="6">*/}
-                                                {/*    <a href={`${item.web}`} target="_blank">*/}
-                                                {/*        <button  className="shadow" style={{position:"relative", width:"100%", padding:"10px"}}>*/}
-                                                {/*            View*/}
-                                                {/*        </button>*/}
-                                                {/*    </a>*/}
-                                                {/*</Col>*/}
-
-                                            </Row>
-                                        </Col>
-
-                                    </div>
-
-                                </Col>
-                            )
-                        })
-                    }
-
+                                <div style={{ padding: "20px" }}>
+                                    <h5 style={{ fontSize: "18px", color: "#333", marginBottom: "10px" }}>
+                                        {item.title}
+                                    </h5>
+                                    <p style={{ fontSize: "14px", color: "#777" }}>{item.subtitle}</p>
+                                </div>
+                            </div>
+                        </Col>
+                    ))}
                 </Row>
 
+                {/* Modal for Zoomed Image */}
+                <Modal isOpen={isModalOpen} toggle={() => this.toggleModal()}>
+                    <ModalBody
+                        style={{
+                            textAlign: "center",
+                            padding: "20px",
+                            border: "2px solid gold", // Add gold border for the modal
+                            borderWidth:"10px",
+                            borderRadius: "8px", // Optional: Round corners of the modal
+                        }}
+                    >
+                        <img
+                            src={selectedImage}
+                            alt="Zoomed Certification"
+                            style={{ width: "100%", maxHeight: "80vh", objectFit: "contain" }}
+                        />
+                    </ModalBody>
+                </Modal>
             </section>
         );
     }

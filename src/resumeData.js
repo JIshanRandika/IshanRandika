@@ -390,6 +390,20 @@ let resumeData = {
     ],
     "certificationCards":[
         {
+            "title":"WSO2 Certified API Manager Practitioner - V4",
+            // "subtitle":"Good and bad effect for the society",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/CertificationCards/wso2v4.png?raw=true",
+            "router":"#",
+            "web":"#"
+        },
+        {
+            "title":"WSO2 Certified Identity Server Practitioner - V7",
+            // "subtitle":"Good and bad effect for the society",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/CertificationCards/wso2v7.png?raw=true",
+            "router":"#",
+            "web":"#"
+        },
+        {
             "title":"WSO2 Identity Server Fundamentals - V5.11",
             // "subtitle":"Good and bad effect for the society",
             "imgurl":"https://github.com/JIshanRandika/images/blob/main/CertificationCards/WSO2%20Identity%20Server%20Fundamentals%20-%20V5.11.png?raw=true",
@@ -404,6 +418,20 @@ let resumeData = {
             "web":"https://www.credly.com/badges/17980f53-efbf-4fe5-af83-5b944bf18a28/linked_in"
         },
         {
+            "title":"Ruhuna Invention and Innovation Competition 2023",
+            // "subtitle":"Good and bad effect for the society",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/CertificationCards/ruhuna.png?raw=true",
+            "router":"#",
+            "web":"#"
+        },
+        {
+            "title":"APAN56 Datathon 2023",
+            // "subtitle":"Good and bad effect for the society",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/CertificationCards/apan56.png?raw=true",
+            "router":"#",
+            "web":"#"
+        },
+        {
             "title":"University Student Startup Competition",
             // "subtitle":"Good and bad effect for the society",
             "imgurl":"https://github.com/JIshanRandika/images/blob/main/CertificationCards/University%20Student%20Startup%20Competition%202022.png?raw=true",
@@ -414,6 +442,13 @@ let resumeData = {
             "title":"HackaDev Green Innovation Challenge",
             // "subtitle":"Good and bad effect for the society",
             "imgurl":"https://github.com/JIshanRandika/images/blob/main/CertificationCards/Hackadev%202022.png?raw=true",
+            "router":"#",
+            "web":"#"
+        },
+        {
+            "title":"IEEE STEM Expo 2023",
+            // "subtitle":"Good and bad effect for the society",
+            "imgurl":"https://github.com/JIshanRandika/images/blob/main/CertificationCards/ieeeExpo.png?raw=true",
             "router":"#",
             "web":"#"
         },
