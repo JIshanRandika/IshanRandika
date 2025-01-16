@@ -99,7 +99,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #5b4f92; }
+header .scrolldown a:hover { color: #1e44a5; }
 
 /*#navigation{*/
 /*    height: 60px;*/
@@ -243,7 +243,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #5b4f92; }
+#resume a, #resume a:visited  { color: #1e44a5; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -252,7 +252,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #5b4f92;
+   border-bottom: 3px solid #1e44a5;
    padding-bottom: 6px;
 }
 #resume h3 {
