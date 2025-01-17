@@ -21,7 +21,7 @@ class CountUpNumber extends React.Component {
                                             <CountUp end={`${item.CountEnd}`} redraw={true} >
                                                 {({ countUpRef, start }) => (
                                                     <VisibilitySensor onChange={start} delayedCall>
-                                                        <span ref={countUpRef} className="display-1"  style={{ color: "#11abb0",fontWeight:"bold" }}/>
+                                                        <span ref={countUpRef} className="display-1"  style={{ color: "#1e44a5",fontWeight:"bold" }}/>
                                                     </VisibilitySensor>
                                                 )}
                                             </CountUp>
